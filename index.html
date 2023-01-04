@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/account.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+<body>
+
+<header>
+    <div class="custom_container">
+       <div class="nav_bar">
+         <div class="nav_component header_bar">
+            <div class="left_nav"> 
+                 <a href="#"><img src="image/logo.svg"></a>
+             </div>
+             <button class="nav_btn open_close_nav" type="button">
+              <i class="fas fa-bars"></i>
+          </button>
+         </div>
+         <div class="nav_component">
+          
+          <object> 
+            <div class="header_dropdown_btn">
+              <a href="#" role="button" id="headerdropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+                  <img src="image/avatar.png"> 
+                  <span>shery <p>$0.00</p></span> 
+                
+                </a> 
+                      <div class="dropdown-menu" aria-spanledby="headerdropdownMenuLink">    
+                         <a class="dropdown-item" href="#">  My Account</a>     
+                          <a class="dropdown-item" href="#"> Change Password </a>   
+                          <a class="dropdown-item" href="#"> Logout</a>  
+                               </div> 
+                              </div>
+                              </object>
+
+
+         </div>
+       </div>
+        
+    </div>
+</header>
+
+<section class="responsive_nav_bar">
+  <div class="cancle_nav"><a class="open_close_nav"><i class="fas fa-times"></i></a></div>
+  <div class="responsive_nav">
+    <ul>
+      <li><a  href="Dashboard.html" >Dashboard</a></li>
+      <li><a href="Premium.html" >Premium</a></li>
+      <li><a href="Order-span.html" >Order span</a></li>
+      <li><a href="Orders-History.html" >Orders History</a></li>
+
+       <li><a  href="Address-Book.html" >Address Book</a></li>
+      <li><a href="Topup-Balance.html" >Topup Balance</a></li>
+      <li><a href="Support.html" >Support</a></li>
+      <li><a href="FAQ.html" >FAQ</a></li>
+      <li><a href="API.html" >API</a></li>
+      <li><a href="Referrals.html" >Referrals</a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="navigation_section">
+    <div class="custom_container">
+        <div class="navigation">
+            <ul>
+                <li><a  href="Dashboard.html" >Dashboard</a></li>
+                <li><a href="Premium.html" >Premium</a></li>
+                <li><a href="Order-span.html" >Order Label</a></li>
+                <li><a href="Orders-History.html" >Orders History</a></li>
+
+                 <li><a  href="Address-Book.html" >Address Book</a></li>
+                <li><a href="Topup-Balance.html" >Topup Balance</a></li>
+                <li><a href="Support.html" >Support</a></li>
+                <li><a href="FAQ.html" >FAQ</a></li>
+                <li><a href="API.html" >API</a></li>
+                <li><a href="Referrals.html" >Referrals</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<div class="navigation_bar">
+  <div class="custom_container">
+    <div class="navigation_bar_box">
+      <h2>Order Label</h2>
+      <ul>
+      <li><a>Label Supply</a></li>
+      <li><i class="fas fa-angle-right"></i></li>
+      <li><a>Order Label</a></li>
+      </ul>
+    </div> 
+  </div>
+</div>
+
+<section class="profile_section" id="profile_section">
+    <div class="custom_container">
+        <div class="profile_section_data">
+            <form>
+                <div class="profile_form">
+                  <div class="profile_section_one">
+                    
+                    <div class="profie_name_section">
+                      <div class="profile_name">
+                        <span>Type</span>
+                        <select>
+                          <option selected disabled>select type</option>
+                          <option>test</option>
+                        </select>
+
+                      </div>
+                     
+                    </div>
+
+                    <div class="profie_name_section">
+                      <div class="profile_name">
+                        <span>Package Weight (70 lbs max)</span>
+                        <input type="number" name="PakageWeight" maxlength="70" placeholder="0lbs">
+                      </div>  
+                    </div>
+
+
+                  </div>
+
+                 <div class="profile_section_two_box_main"> 
+               <div class="profile_section_two_box">
+                   <div class="profile_section_two_heading border_bottom"><h2>From Address</h2></div>
+                  <div class="profile_section_two_main">
+                  <div class="profile_section_two">
+                    <div class="profile_name">
+                      <span>Saved Address</span>
+                      <input type="text" name="FromAddress"  placeholder="Enter pickup address">
+                    </div>
+                  </div>
+                  <div class="profile_section_two">
+                    <div class="profile_name">
+                      <span>Country *</span>
+                      <div class="profile_phone">
+                      <select required>
+                        <option>Select Country</option>
+                      </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="profile_section_two">
+                    <div class="profile_name">
+                      <span>Name *</span>
+                      <div class="profile_phone">
+                      <input type="text" name="FromName" placeholder="Enter Name" required> 
+                      </div>
+                    </div>
+                  </div>
+                  <div class="profile_section_two">
+                    <div class="profile_name">
+                      <span>Company / Reference Number (optional)</span>
+                      <input type="text" name="FromCompany" placeholder="Company">
+                    </div>
+                  </div>
+                  <div class="profile_section_two">
+                    <div class="profile_name border_bottom">
+                      <span>Phone</span>
+                      <input type="number" name="FromNumber" placeholder="Phone">
+                    </div>
+                  </div>
+                  <div class="profile_section_two">
+                    <div class="profile_name">
+                      <span>Street *</span>
+                      <input type="text" name="FromStreet" placeholder="Street" required>
+                    </div>
+                  </div>
+                  <div class="profile_section_two">
+                    <div class="profile_name">
+                      <span>Street 2 (optional)</span>
+                      <input type="text" name="FromStreetTwo" placeholder="Street 2">
+                    </div>
+                  </div>
+                  <div class="profile_section_two">
+                    <div class="profile_name border_bottom">
+                      <span>City</span>
+                      <input type="text" name="FromCity" placeholder="City">
+                    </div>
+                  </div>
+                  <div class="profile_section_two">
+                    <div class="profile_name border_bottom">
+                      <span>Zip</span>
+                      <input type="text" name="FromZip" placeholder="Zip" required>
+                    </div>
+                  </div>
+                  <div class="profile_section_two">
+                    <div class="profile_name border_bottom">
+                      <span>State</span>
+                      <div class="profile_phone">
+                        <select>
+                          <option>Select State</option>
+                        </select>
+                        </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="profile_section_two_box">
+                  <div class="profile_section_two_heading border_bottom"><h2>To Address</h2></div>
+                 <div class="profile_section_two_main">
+                 <div class="profile_section_two">
+                   <div class="profile_name">
+                     <span>Saved Address</span>
+                     <input type="text" name="FromAddress"  placeholder="Enter pickup address">
+                   </div>
+                 </div>
+                 <div class="profile_section_two">
+                   <div class="profile_name">
+                     <span>Country *</span>
+                     <div class="profile_phone">
+                     <select required>
+                       <option>Select Country</option>
+                     </select>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="profile_section_two">
+                   <div class="profile_name">
+                     <span>Name *</span>
+                     <div class="profile_phone">
+                     <input type="text" name="FromName" placeholder="Enter Name" required> 
+                     </div>
+                   </div>
+                 </div>
+                 <div class="profile_section_two">
+                   <div class="profile_name">
+                     <span>Company / Reference Number (optional)</span>
+                     <input type="text" name="FromCompany" placeholder="Company">
+                   </div>
+                 </div>
+                 <div class="profile_section_two">
+                   <div class="profile_name border_bottom">
+                     <span>Phone</span>
+                     <input type="number" name="FromNumber" placeholder="Phone">
+                   </div>
+                 </div>
+                 <div class="profile_section_two">
+                   <div class="profile_name">
+                     <span>Street *</span>
+                     <input type="text" name="FromStreet" placeholder="Street" required>
+                   </div>
+                 </div>
+                 <div class="profile_section_two">
+                   <div class="profile_name">
+                     <span>Street 2 (optional)</span>
+                     <input type="text" name="FromStreetTwo" placeholder="Street 2">
+                   </div>
+                 </div>
+                 <div class="profile_section_two">
+                   <div class="profile_name border_bottom">
+                     <span>City</span>
+                     <input type="text" name="FromCity" placeholder="City">
+                   </div>
+                 </div>
+                 <div class="profile_section_two">
+                   <div class="profile_name border_bottom">
+                     <span>Zip</span>
+                     <input type="text" name="FromZip" placeholder="Zip" required>
+                   </div>
+                 </div>
+                 <div class="profile_section_two">
+                   <div class="profile_name border_bottom">
+                     <span>State</span>
+                     <div class="profile_phone">
+                       <select>
+                         <option>Select State</option>
+                       </select>
+                       </div>
+                   </div>
+                 </div>
+                 </div>
+               </div>
+
+                </div>
+                 
+                </div>
+                <div class="profile_save_btn">
+                  <button>Order Label</button>
+                  <div class="cupon_code_field"><input type="text" name="CuponCode" placeholder="Coupon COde"></div>
+                  <div class="total_price"> Price : <span> $0.00</span></div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<section class="footer-section">
+  <div class="custom_container">
+   <div class="footer_copy_right">
+    <p>Label Supply © 2021</p>
+    <div><a>TOS</a> <a>FAQ</a></div>
+   </div>
+  </div>
+  </section>
+
+<section class="user_account_section" id="user_account_section">
+  <div class="custom_container">
+      <div class="user_account">
+          <div class="keep_empty"></div>
+          <div class="user_account_detail">
+               <h4>Users</h4>
+               <div class="user_account_detail_nav">
+                   <div class="search_bar">
+                       <form>
+                           <input type="search" placeholder="search">
+                           <i class="fas fa-search"></i>
+                       </form>
+                   </div>
+                   <div class="add_user_btn">
+                       <a href="new_user.html">Add new user</a>
+                   </div>
+               </div>
+              <div class="user_account_list">
+                  <div class="single_user_account">
+                      <div class="single_detail">
+                          
+                          <figure><img src="image/img_avatar.png"></figure>
+                          <div class="specific_dtl">
+                          <h5>peter burn</h5>
+                          <span>aaron@wwt.com</span>
+                          <small>Logistings manager</small>
+                          </div>
+                         
+                      </div>
+
+                      <div class="operation">
+                          <i class="fas fa-ellipsis-h"></i>
+                          <div class="do_operation">
+                              <a href="#">Edit user</a>
+                              <a href="#">Edit Delete</a>
+                             </div> 
+                      </div>
+                  </div>
+
+
+                  
+              </div>
+
+          </div>
+      </div>
+  </div>
+</section>
+
+<section class="account_managment_section" id="account_managment_section">
+  <div class="custom_container">
+         <div class="account_managment_nav">
+             <form>
+                 <div class="search_bar">
+                 <input type="search" placeholder="Search">
+                 <i class="fas fa-search"></i>
+                 </div>
+             </form>
+             <a href="new_company.html">Add new company</a>
+          </div>
+          <div class="account_managment"> 
+              <table>
+                
+                  <tr class="border_bottom">
+                      <th>ID</th>
+                      <th>Company name</th>
+                      <th>Phone</th>
+                      <th>Webite</th>
+                      <th>Address</th>
+                      <th>Number of devices</th>
+                      <th>Primary contact</th>
+                      <th>Contact Phone</th>
+                      <th>Actions</th>
+                  </tr>
+                 
+                  <tr>
+                      <td>4544</td>
+                      <td><figure><img src="image/img_avatar.png"><span>World Wide Technology</span></figure></td>
+                      <td>+1 988 932 324</td>
+                      <td>https://wwt.com</td>
+                      <td>1911 Adie Road, St. Louis, Missouri</td>
+                      <td>3</td>
+                      <td>Lewis Fleming</td>
+                      <td>+1 252 5343 2323</td>
+                      <td>
+                             <div class="action">
+                              <i class="fas fa-ellipsis-h action_btn"></i>
+                                <div class="do_action">
+                                  <a href="#">Edit company</a>
+                                  <a href="#">Edit Account</a>
+                                  <a href="#">Delete</a>
+                                 </div> 
+                              </div>
+                         
+                             
+                      </td>
+                  </tr>
+
+                  <tr>
+                    <td>4544</td>
+                    <td><figure><img src="image/img_avatar.png"><span>World Wide Technology</span></figure></td>
+                    <td>+1 988 932 324</td>
+                    <td>https://wwt.com</td>
+                    <td>1911 Adie Road, St. Louis, Missouri</td>
+                    <td>3</td>
+                    <td>Lewis Fleming</td>
+                    <td>+1 252 5343 2323</td>
+                    <td>
+                           <div class="action">
+                            <i class="fas fa-ellipsis-h action_btn"></i>
+                              <div class="do_action">
+                                <a href="#">Edit company</a>
+                                <a href="#">Edit Account</a>
+                                <a href="#">Delete</a>
+                               </div> 
+                            </div>
+                       
+                           
+                    </td>
+                </tr>
+                  
+              </table>   
+           </div>
+  </div>
+</section>
+
+<script type="text/javascript">
+  $('.open_close_nav').click(function(){
+  
+  $('.responsive_nav_bar').toggleClass('responsive_bar');
+  });
+  
+  </script>
+<script>
+  
+$(document).ready(function(){
+$('.profile_btn').click(function(){
+   
+  $('.profile_data').toggleClass('test');
+  });
+});
+</script>
+
+</body>
+</html>
