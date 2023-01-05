@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+      
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+      
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+      
+      <link rel="stylesheet" href="css/slick-theme.css">
+      <link rel="stylesheet" href="css/slick.css">
+    
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    </head>
+
+<body>
+
+    
+  <header>
+    <div class="custom_container">
+        <div class="header_bar">
+            <div class="logo">
+            <a href="index.html"><img style="width:120px" src="image/logo.svg"></a>
+            </div>
+            <button class="nav_btn open_close_nav" type="button">
+                  <i class="fas fa-bars"></i>
+              </button>
+            <div class="nav_bar">
+                <ul>
+                  <li><a href="index.html">Features</a></li>
+                  <li><a href="pricing.html">Pricing</a></li>
+                  <li><a href="FAQs.html">FAQs</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="call_us">
+              <a href="login.html">Log In
+              </a>
+              <a href="register.html">Sign Up
+                </a>
+            </div>
+        </div>
+    </div>
+</header> 
+
+<section class="responsive_nav_bar">
+<div class="cancle_nav"><a class="open_close_nav"><i class="fas fa-times"></i></a></div>
+<div class="responsive_nav">
+  <ul>
+    <li><a href="index.html">Features</a></li>
+    <li><a href="pricing.html">Pricing</a></li>
+    <li><a href="FAQs.html">FAQs</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</div>
+<div class="responsive_call_us">
+    <a href="login.html">Login In
+    </a>
+    <a href="register.html">Sign Up
+    </a>
+</div>
+</section>
+
+  
+<style>
+ 
+  .contact_container {
+    max-width:470px;
+    margin: 0px auto;
+  }
+
+ 
+  /* contact section one start */
+  .contact_section_one {
+    display: inline-block;
+    width: 100%;
+    padding:50px 15px 60px 15px;
+  }
+  .contact_section_one_parent {
+    display: grid;
+  gap: 30px;
+  align-items: center;
+  }
+
+  .contact_section_one_box{
+    display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  width: 100%;
+  gap: 37px 0px;
+  align-items: center;
+  }
+  .contact_section_one_box_heading {
+    display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  width: 100%;
+  gap: 10px 0px;
+  align-items: center;
+  text-align: center;
+  }
+  .contact_section_one_box_heading h3 {
+    font-size: 29px;
+    line-height: 36px;
+    color: #3688fc!important;
+    font-weight: 600;
+    margin: 0px;
+  }
+  .contact_section_one_box_heading p {
+   font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.contact_section_one_box_heading p span a{
+ font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.9);
+  text-decoration: none;
+}
+.contact_section_one_box_heading p span a:hover{
+color: rgba(0, 0, 0, 0.9);
+}
+  .contact_page_form_content {
+    display: grid;
+  width: 100%;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  }
+  .contact_us_form_box {
+    display: grid;
+  width: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  gap: 0px 10px;
+  }
+  .contact_us_form_fields {
+    display: grid;
+  width: 100%;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  gap: 7px 0px;
+  padding-bottom: 10px;
+  position: relative;
+  }
+  .login_password_field{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .contact_us_form_fields span {
+     font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+  }
+  .contact_us_form_fields input {
+    background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 40px;
+  padding: 0px 15px 0px 15px;
+   font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+}
+.contact_us_form_fields input:focus-visible{
+  outline: unset !important;
+}
+  
+  .contact_us_form_fields textarea {
+    background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+   font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  padding: 13px;
+  border-radius: 26px;
+  }
+
+  .contact_us_form_fields label.error {
+    color: #cc0000;
+    text-transform: capitalize;
+    margin: 0px !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 11px;
+  }
+  .contact_us_form_submit_btn {
+    display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  }
+  .contact_us_form_submit_btn button i {
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+  padding-right: 8px;
+}
+  .contact_us_form_submit_btn button {
+    color: #fff;
+    background-color: #3688fc;
+    border:1px solid #3688fc;
+    border-radius: 2px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+  }
+.contact_section_one_login{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.contact_section_one_login p{
+  font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #98a6ad;
+    margin: 0px;
+}
+.contact_section_one_login a{
+  color: #3688fc;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: .9rem;
+    padding-left: 10px;
+}
+.contact_us_form_fields i {
+    position: absolute;
+    right: 1px;
+    bottom: 17px;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    width: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+@media (max-width: 1024px) {
+  
+}
+    @media (max-width: 768px) {
+    
+}
+    @media (max-width: 540px) {
+      .contact_us_form_box {
+        grid-template-columns: 1fr;
+      }
+    }
+
+
+   /* contact section one end */
+
+</style>
+
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script>
+//  function NewsletteronSubmit(token) {
+   
+//  }
+
+ function validate_reset(event) {;
+     event.preventDefault();
+
+     $("#reset_form_validation").validate({
+         rules: {
+
+             email: {
+                 required: true,
+                 email: true
+             },               
+            
+         }
+
+     });
+
+      if ($('#reset_form_validation').valid()) {
+          // grecaptcha.execute();
+          $("#reset_form_validation").submit();
+        }
+
+ }
+
+  function onload() {
+ 
+      var element = document.getElementById('reset-submit-recaptcha');
+      element.onclick = validate_reset;
+  }
+  
+</script>
+
+  <section class="contact_section_one">
+    <div class="contact_container">
+      <div class="contact_section_one_parent">
+        <div class="contact_section_one_box">
+          <div class="contact_section_one_box_heading">
+            <h3>Reset Password</h3>
+          </div>
+          <form
+            method="POST"
+            id="reset_form_validation"
+            novalidate="novalidate"
+          >
+            <div class="contact_page_form_content">
+              <div class="contact_us_form_box">
+                
+                <div class="contact_us_form_fields">
+                  <span>Email</span>
+                  <input type="email" placeholder="Enter your email" required="" name="email" value="" />
+                  <label for="email" generated="true" class="error"></label>
+                </div>
+              </div>
+
+              <div class="contact_us_form_submit_btn">
+                <button id="reset-submit-recaptcha" type="submit">
+                  <i class="fad fa-paper-plane" aria-hidden="true"></i>
+                  Request Reset Link
+                </button>
+              </div>
+            </div>
+          </form>
+         <script>onload();</script>
+        </div>
+       
+      </div>
+      <div class="contact_section_one_login"><p>Remember your password? </p><a href="login.html">Click here to login!</a></div>
+    </div>
+  </section>
+  
+  
+
+  <section class="footer-section">
+    <div class="custom-container">
+    <div class="footer-data-box">
+    <div class="footer-data-box-detail ">
+    <div class="footer-detail-box-one">
+    <figure><img src="image/logo.svg"></figure>
+    <p>With Cheap Labels, Get your packages Delivered Superfast.</p>
+    <div class="footer-socail-links">
+      <a  target="blank"><i class="fab fa-instagram"></i></a> 
+      <a  target="blank"><i class="far fa-paper-plane"></i></a> 
+      <a  target="blank"><i class="fab fa-discord"></i></a>
+    </div>
+    </div>
+    </div>
+    <div class="footer-data-box-detail">
+    <div class="footer-detail-box-two">
+    <div class="footer-detail-box-heading accordion modtitle">
+    <h3 class="footer-collapse-icons">Home</h3>
+    </div>
+    <div class="modcontent panel">
+    <ul class="footer-detail-box-content-list">
+    <li><a href="pricing.html">Pricing</a></li>
+    <li><a href="FAQs.html">FAQs</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    <div class="footer-data-box-detail">
+    <div class="footer-detail-box-two">
+    <div class="footer-detail-box-heading accordion modtitle">
+    <h3 class="footer-collapse-icons">Account</h3>
+    </div>
+    <div class="modcontent panel">
+    <ul class="footer-detail-box-content-list">
+    <li><a href="login.html">Login In</a></li>
+    <li><a href="register.html">Sign Up</a></li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    <div class="footer-data-box-detail">
+    <div class="footer-detail-box-two">
+    <div class="footer-detail-box-heading accordion modtitle">
+    <h3 class="footer-collapse-icons">Legal</h3>
+    </div>
+    <div class="modcontent panel accordion modtitle">
+    <ul class="footer-detail-box-content-list">
+    <li><a href="terms.html">Terms</a></li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    <div class="footer-data-box-detail">
+    <div class="footer-detail-box-two ">
+   
+    <div class="modcontent">
+    <ul class="footer-contact-list ">
+      <li>
+        <div class="footer_contact_box">
+          <h5>Discord</h5>
+          <p>For all the latest updates
+               and announcements</p>
+         </div>
+        <a href="https://discord.com/invite/labels"><i class="fab fa-discord"></i> Join Now</a>
+      </li>
+      <li>
+        <div class="footer_contact_box">
+          <h5>Live Support</h5>
+          <p>For all the latest updates
+               and announcements</p>
+         </div>
+        <a><i class="fas fa-comment-alt"></i> Join Now</a>
+      </li>
+     
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+  
+     <div class="footer_copy_right">
+      <p>Label Supply © 2021</p>
+      <a><img src="image/ne.svg"></a>
+     </div>
+    </div>
+    </section>
+
+  
+<script type="text/javascript">
+$('.open_close_nav').click(function(){
+
+$('.responsive_nav_bar').toggleClass('responsive_bar');
+});
+
+</script>
+
+
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+  </script>
+
+<script>
+        
+  $(document).ready(function(){
+
+      $('#password-show-hide').click(function(){
+
+          var paswd= $('#password');
+          if(paswd.attr("type")== "password"){
+
+              paswd.attr("type","text");
+
+              $('#btn').attr("value","hide");
+              
+          }
+          else{
+                  paswd.attr("type","password");
+
+                  $('#btn').attr("value","show");
+          }
+      })
+
+      $('#cpassword-show-hide').click(function(){
+
+var paswd= $('#cpassword');
+if(paswd.attr("type")== "password"){
+
+    paswd.attr("type","text");
+
+    $('#btn').attr("value","hide");
+    
+}
+else{
+        paswd.attr("type","password");
+
+        $('#btn').attr("value","show");
+}
+})
+  });
+
+ 
+</script>
+</body>
+</html>
