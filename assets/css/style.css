@@ -1,0 +1,123 @@
+body,
+.wrapper,
+.content-page {
+    overflow: initial;
+    overflow-x: initial;
+    overflow-y: initial;
+}
+
+.btn-warning,
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active,
+.btn-warning:not(:disabled):not(.disabled).active,
+.btn-warning:not(:disabled):not(.disabled):active,
+.show>.btn-warning.dropdown-toggle {
+    color: #ffffff;
+}
+
+.link-no-effect {
+    text-decoration: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .embed-responsive {
+        padding-top: 100%;
+    }
+}
+
+.text-white-75 {
+    color: rgba(255, 255, 255, .75);
+}
+
+.text-blue {
+    color: #007bff !important;
+}
+
+.break-area {
+    white-space: pre-wrap;
+}
+
+.bg-blue {
+    background-color: #007bff !important;
+}
+
+.text-thin {
+    font-weight: 300;
+}
+
+.text-responsive {
+    font-size: 4rem;
+}
+
+.text-responsive-huge {
+    font-size: 5rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .position-md-initial {
+        position: initial !important;
+    }
+    .text-responsive {
+        font-size: 5rem;
+    }
+    .text-responsive-huge {
+        font-size: 8rem;
+    }
+    .border-responsive {
+        border-right: 1px solid #dee2e6;
+    }
+}
+
+.btn-xl {
+    padding: .75rem 1.25rem !important;
+    font-size: 1.5rem !important;
+    line-height: 1.75 !important;
+}
+
+.form-control-xl {
+    height: calc(1.75em + 1.5rem + 2px) !important;
+    padding: .75rem 1.25rem !important;
+    font-size: 1.5rem !important;
+    line-height: 1.75 !important;
+}
+
+.grecaptcha-badge {
+    z-index: 1 !important;
+    bottom: 4px !important;
+}
+
+.display-5 {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.display-6 {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.display-7 {
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+
+.display-8 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.display-9 {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.display-10 {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.table-sm td,
+.table-sm th {
+    padding: 3px !important;
+}
