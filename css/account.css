@@ -120,8 +120,8 @@
     .navigation_section .navigation ul{
         display: flex;
         align-items: center;
-        margin: 0px -20px;
-        width: 100%;
+        margin:0px;
+        padding:0px;
     }
     .navigation_section .navigation ul li{
         list-style: none;
