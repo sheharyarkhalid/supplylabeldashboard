@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+      
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+      
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+      
+      <link rel="stylesheet" href="css/slick-theme.css">
+      <link rel="stylesheet" href="css/slick.css">
+    </head>
+
+<body>
+
+  <header>
+    <div class="custom_container">
+        <div class="header_bar">
+            <div class="logo">
+            <a href="index.html"><img style="width:120px" src="image/logo.svg"></a>
+            </div>
+            <button class="nav_btn open_close_nav" type="button">
+                  <i class="fas fa-bars"></i>
+              </button>
+            <div class="nav_bar">
+                <ul>
+                  <li><a href="index.html">Features</a></li>
+                  <li><a href="pricing.html">Pricing</a></li>
+                  <li><a href="FAQs.html">FAQs</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="call_us">
+              <a href="login.html">Log In
+              </a>
+              <a href="register.html">Sign Up
+                </a>
+            </div>
+        </div>
+    </div>
+</header> 
+
+<section class="responsive_nav_bar">
+<div class="cancle_nav"><a class="open_close_nav"><i class="fas fa-times"></i></a></div>
+<div class="responsive_nav">
+  <ul>
+    <li><a href="index.html">Features</a></li>
+    <li><a href="pricing.html">Pricing</a></li>
+    <li><a href="FAQs.html">FAQs</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</div>
+<div class="responsive_call_us">
+    <a href="login.html">Login In
+    </a>
+    <a href="register.html">Sign Up
+    </a>
+</div>
+</section>
+  
+<style>
+  button.accordian_parent.btn.btn-link {
+      text-decoration: none !important;
+  }
+  .btn-link:hover {
+      color: unset !important;
+      text-decoration: none !important;
+  }
+  .accordian_parent {
+         display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: space-between;
+      flex-direction: row-reverse;
+      border: unset !important;
+      background: unset !important;
+      padding: 0.375rem 0.75rem;
+  }
+  .accordian_parent span{
+  color: #fff;
+      font-size: 18px;
+      text-align: left;
+      padding-right: 15px;
+  }
+  .accordian_parent i{
+      color: #fff;
+      font-size: 18px;
+  }
+  .card-body_result {
+    background-color: #f8f9fa !important;
+      color: #212121;
+      padding: 15px 31px;
+      font-size: 14px;
+  }
+  .card {
+    border: unset !important;
+    margin-bottom: 20px;
+  }
+  
+        .inner_page_section_one {
+          display: block;
+          width: 100%;
+          padding: 40px 15px 0px 15px;
+          float: left;
+          margin-bottom:30px;
+        }
+        .custom_container {
+          max-width: 1140px;
+          margin: 0px auto;
+        }
+  
+        .inner_page_section_one_box {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: auto;
+          grid-template-areas: ".";
+          gap: 20px 20px;
+          width: 100%;
+          height: 100%;
+          align-items: center;
+        }
+        .inner_page_section_one_figcaption {
+          display: grid;
+          width: 100%;
+          gap: 15px;
+        }
+        .inner_page_section_one_figcaption_heading {
+          display: grid;
+          width: 100%;
+          gap: 8px;
+        }
+        .inner_page_section_one_figcaption_heading h4 {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 47px;
+  color: #DB0F2F;
+          margin: 0px;
+        }
+        .inner_page_section_one_figcaption_heading small {
+         
+          font-style: normal;
+          font-weight: 800;
+          font-size: 16px;
+          line-height: 19px;
+          text-transform: capitalize;
+          color: #333333;
+        }
+        .inner_page_section_one_figcaption_discription {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: auto;
+          grid-template-areas: ".";
+          gap: 16px 0px;
+          width: 100%;
+          padding-bottom: 20px;
+        }
+        .inner_page_section_one_figcaption_discription p {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 22px;
+          color:#656060;
+          margin: 0px;
+        }
+  
+        .inner_page_section_one_figcaption_check {
+          display: flex;
+          align-items: center;
+          width: 100%;
+        }
+        .inner_page_section_one_figcaption_check span {
+       
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 22px;
+          color: #ec2227;
+        }
+        .inner_page_section_one_figcaption_check span small {
+          color: rgba(0, 0, 0, 0.6);
+       
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 22px;
+        }
+     
+        .card-header {
+    background: #0F8AE3;
+    border-radius: 9.53682px !important;
+    color: #fff;
+}
+        @media (min-width: 768px) and (max-width: 1024px) {
+          .inner_page_section_one_figcaption {
+            gap: 20px;
+          }
+        }
+  
+        @media (max-width: 767px) {
+   .inner_page_section_one_figcaption {
+            gap: 20px;
+          }
+    
+          .inner_page_section_one_figcaption_discription {
+            padding-bottom: 8px;
+          }
+          .inner_page_section_one_box {
+            padding: 0px;
+          }
+        }
+        @media (max-width: 540px) {
+  .card-body_result {
+      padding: 15px 16px;
+  }
+  .card-body_result {
+      text-align: left;
+  }
+  .inner_faq_accordian .card-header{
+      padding: 0.75rem 5px !important;
+  }
+  .accordian_parent i {
+   
+      font-size: 16px;
+  }
+  .accordian_parent span{
+   
+      font-size: 16px;
+  }
+  .page-title-section .page-title {
+  
+      text-align: center;
+  }
+          .inner_page_section_one_figcaption {
+            text-align: center;
+          }
+        
+        }
+  
+
+      </style>
+
+  <section class="inner_page_section_one">
+  <div class="custom_container">
+    <div class="home_section_five_figcaption_heading">
+         
+      <h4> <span>Frequently </span> Asked Questions</h4>
+      <p>All your questions answered here, if you still have more
+        questions regarding our service, kindly contact us.</p>
+    </div>
+ 
+  <div class="inner_page_section_one_figcaption">
+  
+
+  <div class="inner_page_section_one_figcaption" id="FAQ">
+
+  <div class="inner_faq_accordian">
+  <div class="accordion" id="accordionExample">
+  <div class="card">
+  <div class="card-header "><button class="accordian_parent" data-toggle="collapse" data-target="#collapseOne">
+     <i class="fa fa-plus"></i> <span>
+      Is Insurance Included? </span></button></div>
+  <div class="collapse show" id="collapseOne" data-parent="#accordionExample">
+  <div class="card-body_result">
+    Yes, Priority Mail $50 worth of insurance, for Priority Mail Express
+     you get $100 worth of insurance. You can add more insurance if you would like- 
+     You can purchase InsurePost insurance if the label has not already been scanned at
+      the mail center. Navigate to www.insurepost.com Select Insure Now (listed under the headline 
+      “Instant Shipping Insurance Protection). Register an account or opt to Insure My Shipment as a Guest.
+     Enter your shipment details. Provide your payment information. Your shipment is now insured!</div>
+  </div>
+
+  </div>
+  <div class="card">
+  <div class="card-header"><button class="accordian_parent " data-toggle="collapse" data-target="#collapseTwo"> 
+    <i class="fa fa-plus"></i><span> 
+      What is the biggest our box can be? </span></button></div>
+  <div class="collapse" id="collapseTwo" data-parent="#accordionExample">
+  <div class="card-body_result">For USPS, The max is 108” (L+W*2+H*2)</div>
+  </div>
+  </div>
+  <div class="card">
+  <div class="card-header"><button class="accordian_parent btn btn-link" data-toggle="collapse" data-target="#collapseThree"> 
+    <i class="fa fa-plus"></i> <span>
+      Can I edit my labels?</span></button></div>
+  <div class="collapse" id="collapseThree" data-parent="#accordionExample">
+  <div class="card-body_result">If there’s an issue with your shipping label you can contact our team and we will assist with any modifications.</div>
+  </div>
+  </div>
+  <div class="card">
+  <div class="card-header"><button class="accordian_parent " data-toggle="collapse" data-target="#collapsefour">
+     <i class="fa fa-plus"></i><span>
+      I paid for my label, when will I get it? </span></button></div>
+  <div class="collapse" id="collapsefour" data-parent="#accordionExample">
+  <div class="card-body_result">There’s no wait time. Submit your information for your customers and print your labels instantly.</div>
+  </div>
+  </div>
+  <div class="card">
+  <div class="card-header"><button class="accordian_parent " data-toggle="collapse" data-target="#collapsefive"> 
+    <i class="fa fa-plus"></i><span>
+      I just placed an order but need to cancel, Can I?</span></button></div>
+  <div class="collapse" id="collapsefive" data-parent="#accordionExample">
+  <div class="card-body_result">Yes, if you ordered and want to cancel, you are eligible for a refund only for the first 60 minutes. But, if you haven’t notified us within 60 minutes of ordering, we are not obligated to any refunds.</div>
+  </div>
+  </div>
+
+  </div>
+  </div>
+ 
+  </div>
+  </div>
+  </div>
+  </section>
+
+
+
+  <section class="contactus_sec pt-0">
+    <div class="container">
+    <div class="row">
+    <div class="col-lg-12">
+    <div class="easy_step_head">
+    <h3>Contact Us</h3>
+    <p>Our Dedicated Support team is available 24/7 to <br> solve any issues related your orders and more.
+    <br>Our Company Email: Gustavocastrosz@hotmail.com
+    </p>
+    </div>
+    </div>
+    </div>
+    <div class="row justify-content-center">
+    <div class="col-lg-5">
+    <div class="contact_box_item">
+    <h4><img src="image/discord_w.svg" alt="a" class="img-fluid"> Join Discord Server </h4>
+    <p>Join our Discord Server for all the latest updates and announcements on any new schemes, discounts and offers. </p>
+    <a href="https://discord.gg/labels">Join Discord</a>
+    </div>
+    </div>
+    <div class="col-lg-5">
+    <div class="contact_box_item" style="background: #3170CD">
+    <h4><img src="image/chat_w.svg" alt="a" class="img-fluid"> Live Support </h4>
+    <p>Get instant answers to all your queries, along with any issues you face regarding our service. Our Dedicated Support team is available 24/7.</p>
+    <a href="https://labelsupply.io/support/">Chat with us</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+  
+
+
+  <script>
+  $(document).ready(function(){
+    //Add a minus icon to the collapse element that is open by default
+      $('.collapse.show').each(function(){
+      $(this).parent().find(".fa").removeClass("fa-plus").addClass("fa-minus");
+      });
+        
+    //Toggle plus/minus icon on show/hide of collapse element
+    $('.collapse').on('shown.bs.collapse', function(){
+      $(this).parent().find(".fa").removeClass("fa-plus").addClass("fa-minus");
+    }).on('hidden.bs.collapse', function(){
+      $(this).parent().find(".fa").removeClass("fa-minus").addClass("fa-plus");
+    });       
+  });
+  </script>
+
+<section class="footer-section">
+  <div class="custom-container">
+  <div class="footer-data-box">
+  <div class="footer-data-box-detail ">
+  <div class="footer-detail-box-one">
+  <figure><img src="image/logo.svg"></figure>
+  <p>With Cheap Labels, Get your packages Delivered Superfast.</p>
+  <div class="footer-socail-links">
+    <a  target="blank"><i class="fab fa-instagram"></i></a> 
+    <a  target="blank"><i class="far fa-paper-plane"></i></a> 
+    <a  target="blank"><i class="fab fa-discord"></i></a>
+  </div>
+  </div>
+  </div>
+  <div class="footer-data-box-detail">
+  <div class="footer-detail-box-two">
+  <div class="footer-detail-box-heading accordion modtitle">
+  <h3 class="footer-collapse-icons">Home</h3>
+  </div>
+  <div class="modcontent panel">
+  <ul class="footer-detail-box-content-list">
+  <li><a href="pricing.html">Pricing</a></li>
+  <li><a href="FAQs.html">FAQs</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  </ul>
+  </div>
+  </div>
+  </div>
+  <div class="footer-data-box-detail">
+  <div class="footer-detail-box-two">
+  <div class="footer-detail-box-heading accordion modtitle">
+  <h3 class="footer-collapse-icons">Account</h3>
+  </div>
+  <div class="modcontent panel">
+  <ul class="footer-detail-box-content-list">
+  <li><a href="login.html">Login In</a></li>
+  <li><a href="register.html">Sign Up</a></li>
+  </ul>
+  </div>
+  </div>
+  </div>
+  <div class="footer-data-box-detail">
+  <div class="footer-detail-box-two">
+  <div class="footer-detail-box-heading accordion modtitle">
+  <h3 class="footer-collapse-icons">Legal</h3>
+  </div>
+  <div class="modcontent panel accordion modtitle">
+  <ul class="footer-detail-box-content-list">
+  <li><a href="terms.html">Terms</a></li>
+  </ul>
+  </div>
+  </div>
+  </div>
+  <div class="footer-data-box-detail">
+  <div class="footer-detail-box-two ">
+ 
+  <div class="modcontent">
+  <ul class="footer-contact-list ">
+    <li>
+      <div class="footer_contact_box">
+        <h5>Discord</h5>
+        <p>For all the latest updates
+             and announcements</p>
+       </div>
+      <a href="https://discord.com/invite/labels"><i class="fab fa-discord"></i> Join Now</a>
+    </li>
+    <li>
+      <div class="footer_contact_box">
+        <h5>Live Support</h5>
+        <p>For all the latest updates
+             and announcements</p>
+       </div>
+      <a><i class="fas fa-comment-alt"></i> Join Now</a>
+    </li>
+   
+  </ul>
+  </div>
+  </div>
+  </div>
+  </div>
+
+   <div class="footer_copy_right">
+    <p>Label Supply © 2021</p>
+    <a><img src="image/ne.svg"></a>
+   </div>
+  </div>
+  </section>
+
+  
+
+
+
+<script type="text/javascript" src="script/jquery.js"></script>
+<script type="text/javascript" src="script/slick.js"></script>
+  <script type="text/javascript" src="script/slick.min.js"></script>
+<script type="text/javascript">
+$('.open_close_nav').click(function(){
+
+$('.responsive_nav_bar').toggleClass('responsive_bar');
+});
+
+</script>
+
+<script>
+  $(document).ready(function () {
+    $(".testimonial_slider").slick({
+      slidesToShow:3,
+      slidesToScroll: 1,
+      autoplay: false,
+      autoplaySpeed: 2000,
+      dots: false,
+     arrows: true,
+ appendArrows: $('.testimonial_slider_arrow_box'),
+ nextArrow: '<a class="testimonial_pre_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></a>',
+ prevArrow: '<a class="testimonial_pre_arrow"><i class="fa fa-angle-left" aria-hidden="true"></i></a>',
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow:2,
+            slidesToScroll: 1,
+            autoplay: false,
+            autoplaySpeed: 1500,
+          dots: false,
+            arrows: true,
+          },
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            autoplay: false,
+            autoplaySpeed: 1500,
+               dots: false,
+              arrows: true,
+          },
+        },
+        {
+          breakpoint: 540,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: false,
+            autoplaySpeed: 1500,
+               dots: false,
+            arrows: true,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: false,
+          autoplaySpeed: 1500,
+            dots: false,
+             arrows: true,
+          },
+        },
+      ],
+    });
+  });
+ </script>
+
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+  </script>
+
+
+</body>
+</html>

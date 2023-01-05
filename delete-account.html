@@ -41,12 +41,10 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </head>
 
-    
 <body data-layout="topnav" data-layout-config='{"layoutBoxed":false,"darkMode":false,"showRightSidebarOnStart": true}'>
     <div class="wrapper">
         <div class="content-page">
             <div class="content">
-               
                 <header>
                     <div class="custom_container">
                        <div class="nav_bar">
@@ -68,7 +66,7 @@
                                 
                                 </a> 
                                       <div class="dropdown-menu" aria-spanledby="headerdropdownMenuLink">    
-                                         <a class="dropdown-item" href="account.html">My Account</a>     
+                                         <a class="dropdown-item" href="account.html">  My Account</a>     
                                           <a class="dropdown-item" href="change-password.html"> Change Password </a>   
                                           <a class="dropdown-item" href="logout.html"> Logout</a>  
                                                </div> 
@@ -123,76 +121,34 @@
                 <div class="navigation_bar">
                     <div class="custom_container">
                       <div class="navigation_bar_box">
-                        <h2>Account</h2>
+                        <h2>Delete Account</h2>
                         <ul>
                         <li><a>Label Supply</a></li>
                         <li><i class="fas fa-angle-right"></i></li>
                         <li><a>Account</a></li>
+                        <li><i class="fas fa-angle-right"></i></li>
+                        <li><a>Delete</a></li>
                         </ul>
                       </div> 
                     </div>
                   </div>
+
                 <div class="container-fluid">
                     <div class="row justify-content-center">
-                        <div class="col col-md-5">
-                            <div class="card">
-                                <div class="card-body p-4">
-                                    <div class="mb-3">
-                                        <span class="fa fa-fw fa-terminal mr-2 text-primary"></span>
-                                        <span>ID:</span>
-                                        <span class="text-muted">bafd6d96-ec3b-ee4a-19e6-0ec158ae60de</span>
-                                    </div>
-                                    <div class="mb-3">
-                                        <span class="fas fa-fw fa-user mr-2 text-primary"></span>
-                                        <span>Username:</span>
-                                        <span class="text-muted">shery</span>
-                                    </div>
-                                    <div class="mb-3">
-                                        <span class="fas fa-fw fa-users mr-2 text-primary"></span>
-                                        <span>Referer:</span>
-                                        <span class="text-muted">None</span>
-                                    </div>
-                                    <div class="mb-3">
-                                        <span class="fas fa-fw fa-envelope mr-2 text-primary"></span>
-                                        <span>Email:</span>
-                                        <a ><span class="__cf_email__">test@gmail.com</span></a>
-                                    </div>
-                                    <div class="mb-3">
-                                        <span class="fab fa-fw fa-discord mr-2 text-primary"></span>
-                                        <span>Discord:</span>
-                                        <span class="text-muted">Not Connected</span>
-                                    </div>
-                                    <div class="mb-3">
-                                        <span class="fab fa-fw fa-telegram-plane mr-2 text-primary"></span>
-                                        <span>Telegram:</span>
-                                        <span class="text-muted">Not Connected</span>
-                                    </div>
-                                    <div class="mb-3">
-                                        <span class="fas fa-fw fa-certificate mr-2 text-primary"></span>
-                                        <span>Role:</span>
-                                        <span class="text-muted">User</span>
-                                    </div>
-                                    <div class="mb-3">
-                                        <span class="fas fa-fw fa-coins mr-2 text-primary"></span>
-                                        <span>Balance:</span>
-                                        <span class="text-success">$0.00</span>
-                                        <i class="text-muted" title="Total Deposited" data-toggle="tooltip">($0.00)</i>
-                                    </div>
-                                    <div class="">
-                                        <span class="fas fa-fw fa-birthday-cake mr-2 text-primary"></span>
-                                        <span>Joined:</span>
-                                        <span class="text-muted">12/27/2022 20:51</span>
-                                    </div>
+                        <div class="col col-md-6">
+                            <form method="POST">
+                                <div class="card card-body">
+                                    <p class="text-center lead mb-0">Are you sure that you want to delete your account and all data associated with your account?<br><span class="text-danger">This process is not reversable!</span></p>
                                 </div>
-                                <div class="card-footer bg-light">
-                                    <a href="change-password.html" class="link-no-effect text-primary mr-4"><span class="fa fa-unlock-alt mr-2"></span>Change Password</a>
-                                    <a href="delete-account.html" class="link-no-effect text-primary"><span class="fa fa-trash-alt mr-2"></span>Delete Account</a>
+                                <div class="form-group">
+                                    <label>Password</label>
+                                    <input name="Password" class="form-control" type="password" placeholder="Password" minlength="5" maxlength="255" required>
                                 </div>
-                            </div>
-                            <a  class="btn btn-lg d-block btn-light text-whtie mb-3"
-                                style="background-color: #7289da; border-color: #7289da; color: #ffffff;"><span class="fab fa-lg fa-discord mr-2"></span>Login with Discord</a>
-
-                           
+                                <div class="form-group pt-3">
+                                    <button type="submit" class="btn btn-danger mr-1"><span class="fa fa-trash-alt"></span> Delete</button>
+                                    <a class="btn btn-secondary"><span class="fa fa-ban"></span> Cancel</a>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -228,7 +184,6 @@
         });
       });
       </script>
-   
 </body>
 
 </html>

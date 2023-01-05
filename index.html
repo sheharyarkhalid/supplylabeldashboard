@@ -1,455 +1,292 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="The best site to order labels from!">
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:url" content="https://labelsupply.io/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Dashboard - Label Supply" />
+    <meta property="og:description" content="The best site to order labels from!" />
+    <meta property="og:image" content="assets/img/logo.png" />
+    <meta name="csrf" content="5d59e2f4-3c41-f316-2ce9-f63a16b9086e" />
+    <title>Dashboard - Label Supply</title>
     <link rel="stylesheet" type="text/css" href="css/account.css">
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-     
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="assets/icons/site.webmanifest">
+    <link rel="mask-icon" href="assets/icons/safari-pinned-tab.svg" color="#3688fc">
+    <link rel="shortcut icon" href="assets/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#3688fc">
+    <meta name="msapplication-config" content="assets/icons/browserconfig.xml">
+    <meta name="theme-color" content="#3688fc">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/icons.min.css">
+    <link rel="stylesheet" href="assets/css/theme-light.min.css" id="theme-light">
+    <link rel="stylesheet" href="assets/css/theme-dark.min.css" id="theme-dark" disabled>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+      
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/account.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </head>
-<body>
+</head>
 
-<header>
-    <div class="custom_container">
-       <div class="nav_bar">
-         <div class="nav_component header_bar">
-            <div class="left_nav"> 
-                 <a href="#"><img src="image/logo.svg"></a>
+<body data-layout="topnav" data-layout-config='{"layoutBoxed":false,"darkMode":false,"showRightSidebarOnStart": true}'>
+
+    <header>
+        <div class="custom_container">
+           <div class="nav_bar">
+             <div class="nav_component header_bar">
+                <div class="left_nav"> 
+                     <a href="#"><img src="image/logo.svg"></a>
+                 </div>
+                 <button class="nav_btn open_close_nav" type="button">
+                  <i class="fas fa-bars"></i>
+              </button>
              </div>
-             <button class="nav_btn open_close_nav" type="button">
-              <i class="fas fa-bars"></i>
-          </button>
-         </div>
-         <div class="nav_component">
-          
-          <object> 
-            <div class="header_dropdown_btn">
-              <a href="#" role="button" id="headerdropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
-                  <img src="image/avatar.png"> 
-                  <span>shery <p>$0.00</p></span> 
-                
-                </a> 
-                      <div class="dropdown-menu" aria-spanledby="headerdropdownMenuLink">    
-                         <a class="dropdown-item" href="#">  My Account</a>     
-                          <a class="dropdown-item" href="#"> Change Password </a>   
-                          <a class="dropdown-item" href="#"> Logout</a>  
-                               </div> 
-                              </div>
-                              </object>
-
-
-         </div>
-       </div>
-        
-    </div>
-</header>
-
-<section class="responsive_nav_bar">
-  <div class="cancle_nav"><a class="open_close_nav"><i class="fas fa-times"></i></a></div>
-  <div class="responsive_nav">
-    <ul>
-      <li><a  href="Dashboard.html" >Dashboard</a></li>
-      <li><a href="Premium.html" >Premium</a></li>
-      <li><a href="Order-span.html" >Order span</a></li>
-      <li><a href="Orders-History.html" >Orders History</a></li>
-
-       <li><a  href="Address-Book.html" >Address Book</a></li>
-      <li><a href="Topup-Balance.html" >Topup Balance</a></li>
-      <li><a href="Support.html" >Support</a></li>
-      <li><a href="FAQ.html" >FAQ</a></li>
-      <li><a href="API.html" >API</a></li>
-      <li><a href="Referrals.html" >Referrals</a></li>
-    </ul>
-  </div>
-</section>
-
-<section class="navigation_section">
-    <div class="custom_container">
-        <div class="navigation">
-            <ul>
-                <li><a  href="Dashboard.html" >Dashboard</a></li>
-                <li><a href="Premium.html" >Premium</a></li>
-                <li><a href="Order-span.html" >Order Label</a></li>
-                <li><a href="Orders-History.html" >Orders History</a></li>
-
-                 <li><a  href="Address-Book.html" >Address Book</a></li>
-                <li><a href="Topup-Balance.html" >Topup Balance</a></li>
-                <li><a href="Support.html" >Support</a></li>
-                <li><a href="FAQ.html" >FAQ</a></li>
-                <li><a href="API.html" >API</a></li>
-                <li><a href="Referrals.html" >Referrals</a></li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-<div class="navigation_bar">
-  <div class="custom_container">
-    <div class="navigation_bar_box">
-      <h2>Order Label</h2>
-      <ul>
-      <li><a>Label Supply</a></li>
-      <li><i class="fas fa-angle-right"></i></li>
-      <li><a>Order Label</a></li>
-      </ul>
-    </div> 
-  </div>
-</div>
-
-<section class="profile_section" id="profile_section">
-    <div class="custom_container">
-        <div class="profile_section_data">
-            <form>
-                <div class="profile_form">
-                  <div class="profile_section_one">
+             <div class="nav_component">
+              
+              <object> 
+                <div class="header_dropdown_btn">
+                  <a href="#" role="button" id="headerdropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+                      <img src="image/avatar.png"> 
+                      <span>shery <p>$0.00</p></span> 
                     
-                    <div class="profie_name_section">
-                      <div class="profile_name">
-                        <span>Type</span>
-                        <select>
-                          <option selected disabled>select type</option>
-                          <option>test</option>
-                        </select>
+                    </a> 
+                          <div class="dropdown-menu" aria-spanledby="headerdropdownMenuLink">    
+                             <a class="dropdown-item" href="account.html">  My Account</a>     
+                              <a class="dropdown-item" href="change-password.html"> Change Password </a>   
+                              <a class="dropdown-item" href="logout.html"> Logout</a>  
+                                   </div> 
+                                  </div>
+                                  </object>
+    
+    
+             </div>
+           </div>
+            
+        </div>
+    </header>
+    
+    <section class="responsive_nav_bar">
+      <div class="cancle_nav"><a class="open_close_nav"><i class="fas fa-times"></i></a></div>
+      <div class="responsive_nav">
+        <ul>
+          <li><a  href="index.html" >Dashboard</a></li>
+          <li><a href="Premium.html" >Premium</a></li>
+          <li><a href="Order-span.html" >Order span</a></li>
+          <li><a href="Orders-History.html" >Orders History</a></li>
+    
+           <li><a  href="Address-Book.html" >Address Book</a></li>
+          <li><a href="Topup-Balance.html" >Topup Balance</a></li>
+          <li><a href="Support.html" >Support</a></li>
+          <li><a href="FAQ.html" >FAQ</a></li>
+          <li><a href="API.html" >API</a></li>
+          <li><a href="Referrals.html" >Referrals</a></li>
+        </ul>
+      </div>
+    </section>
+    
+    <section class="navigation_section">
+        <div class="custom_container">
+            <div class="navigation">
+                <ul>
+                    <li><a  href="index.html" >Dashboard</a></li>
+                    <li><a href="Premium.html" >Premium</a></li>
+                    <li><a href="Order-span.html" >Order Label</a></li>
+                    <li><a href="Orders-History.html" >Orders History</a></li>
+    
+                     <li><a  href="Address-Book.html" >Address Book</a></li>
+                    <li><a href="Topup-Balance.html" >Topup Balance</a></li>
+                    <li><a href="Support.html" >Support</a></li>
+                    <li><a href="FAQ.html" >FAQ</a></li>
+                    <li><a href="API.html" >API</a></li>
+                    <li><a href="Referrals.html" >Referrals</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div class="navigation_bar">
+        <div class="custom_container">
+          <div class="navigation_bar_box">
+            <h2>Order Label</h2>
+            <ul>
+            <li><a>Label Supply</a></li>
+            <li><i class="fas fa-angle-right"></i></li>
+            <li><a>Order Label</a></li>
+            </ul>
+          </div> 
+        </div>
+      </div>
+    <div class="wrapper">
+        <div class="content-page">
+            <div class="content">
+                
+                
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body p-4">
+                                    <div class="mb-3">
+                                        <span class="fa fa-fw fa-terminal mr-2 text-primary"></span>
+                                        <span>ID:</span>
+                                        <span class="text-muted">bafd6d96-ec3b-ee4a-19e6-0ec158ae60de</span>
+                                    </div>
+                                    <div class="mb-3">
+                                        <span class="fas fa-fw fa-user mr-2 text-primary"></span>
+                                        <span>Username:</span>
+                                        <span class="text-muted">shery</span>
+                                    </div>
+                                    <div class="mb-3">
+                                        <span class="fas fa-fw fa-users mr-2 text-primary"></span>
+                                        <span>Referer:</span>
+                                        <span class="text-muted">None</span>
+                                    </div>
+                                    <div class="mb-3">
+                                        <span class="fas fa-fw fa-envelope mr-2 text-primary"></span>
+                                        <span>Email:</span>
+                                        <a><span class="__cf_email__">test@gmail.com</span></a>
+                                    </div>
+                                    <div class="mb-3">
+                                        <span class="fab fa-fw fa-discord mr-2 text-primary"></span>
+                                        <span>Discord:</span>
+                                        <span class="text-muted">Not Connected</span>
+                                    </div>
+                                    <div class="mb-3">
+                                        <span class="fab fa-fw fa-telegram-plane mr-2 text-primary"></span>
+                                        <span>Telegram:</span>
+                                        <span class="text-muted">Not Connected</span>
+                                    </div>
+                                    <div class="mb-3">
+                                        <span class="fas fa-fw fa-certificate mr-2 text-primary"></span>
+                                        <span>Role:</span>
+                                        <span class="text-muted">User</span>
+                                    </div>
+                                    <div class="mb-3">
+                                        <span class="fas fa-fw fa-coins mr-2 text-primary"></span>
+                                        <span>Balance:</span>
+                                        <span class="text-success">$0.00</span>
+                                        <i class="text-muted" title="Total Deposited" data-toggle="tooltip">($0.00)</i>
+                                    </div>
+                                    <div class="">
+                                        <span class="fas fa-fw fa-birthday-cake mr-2 text-primary"></span>
+                                        <span>Joined:</span>
+                                        <span class="text-muted">12/27/2022 20:51</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer bg-light">
+                                    <a href="change-password.html" class="link-no-effect text-primary mr-4"><span class="fa fa-unlock-alt mr-2"></span>Change Password</a>
+                                    <a href="delete-account.html"  class="link-no-effect text-primary"><span class="fa fa-trash-alt mr-2"></span>Delete Account</a>
+                                </div>
+                            </div>
+                            <a class="btn btn-lg d-block btn-light text-whtie mb-3"
+                                style="background-color: #7289da; border-color: #7289da; color: #ffffff;"><span class="fab fa-lg fa-discord mr-2"></span>Login with Discord</a>
 
-                      </div>
-                     
-                    </div>
+                          
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <div class="card-header bg-light font-weight-light text-primary h3 m-0">Recent Orders</div>
+                                <ul class="list-group list-group-flush">
+                                </ul>
+                                <div class="card-footer text-center">
+                                    <a href="Orders-history.html" class="text-muted">View all orders</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <div class="card-header bg-light font-weight-light text-primary h3 m-0">Recent Deposits</div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <a href="Topup-Balance.html" class="text-reset">
+<span class="text-muted">$22.00</span>
+<span class="text-muted"> &bull; </span>
+<span class="text-danger">Unpaid</span>
+<span class="text-muted"> &bull; </span>
+<span class="text-primary">Cards</span>
+<small class="d-block text-muted">
+12/31/2022 20:53
+</small>
+</a>
+                                    </li>
 
-                    <div class="profie_name_section">
-                      <div class="profile_name">
-                        <span>Package Weight (70 lbs max)</span>
-                        <input type="number" name="PakageWeight" maxlength="70" placeholder="0lbs">
-                      </div>  
-                    </div>
-
-
-                  </div>
-
-                 <div class="profile_section_two_box_main"> 
-               <div class="profile_section_two_box">
-                   <div class="profile_section_two_heading border_bottom"><h2>From Address</h2></div>
-                  <div class="profile_section_two_main">
-                  <div class="profile_section_two">
-                    <div class="profile_name">
-                      <span>Saved Address</span>
-                      <input type="text" name="FromAddress"  placeholder="Enter pickup address">
-                    </div>
-                  </div>
-                  <div class="profile_section_two">
-                    <div class="profile_name">
-                      <span>Country *</span>
-                      <div class="profile_phone">
-                      <select required>
-                        <option>Select Country</option>
-                      </select>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="profile_section_two">
-                    <div class="profile_name">
-                      <span>Name *</span>
-                      <div class="profile_phone">
-                      <input type="text" name="FromName" placeholder="Enter Name" required> 
-                      </div>
-                    </div>
-                  </div>
-                  <div class="profile_section_two">
-                    <div class="profile_name">
-                      <span>Company / Reference Number (optional)</span>
-                      <input type="text" name="FromCompany" placeholder="Company">
-                    </div>
-                  </div>
-                  <div class="profile_section_two">
-                    <div class="profile_name border_bottom">
-                      <span>Phone</span>
-                      <input type="number" name="FromNumber" placeholder="Phone">
-                    </div>
-                  </div>
-                  <div class="profile_section_two">
-                    <div class="profile_name">
-                      <span>Street *</span>
-                      <input type="text" name="FromStreet" placeholder="Street" required>
-                    </div>
-                  </div>
-                  <div class="profile_section_two">
-                    <div class="profile_name">
-                      <span>Street 2 (optional)</span>
-                      <input type="text" name="FromStreetTwo" placeholder="Street 2">
-                    </div>
-                  </div>
-                  <div class="profile_section_two">
-                    <div class="profile_name border_bottom">
-                      <span>City</span>
-                      <input type="text" name="FromCity" placeholder="City">
-                    </div>
-                  </div>
-                  <div class="profile_section_two">
-                    <div class="profile_name border_bottom">
-                      <span>Zip</span>
-                      <input type="text" name="FromZip" placeholder="Zip" required>
-                    </div>
-                  </div>
-                  <div class="profile_section_two">
-                    <div class="profile_name border_bottom">
-                      <span>State</span>
-                      <div class="profile_phone">
-                        <select>
-                          <option>Select State</option>
-                        </select>
+                                    <li class="list-group-item">
+                                        <a href="Topup-Balance.html" class="text-reset">
+<span class="text-muted">$22.00</span>
+<span class="text-muted"> &bull; </span>
+<span class="text-danger">Unpaid</span>
+<span class="text-muted"> &bull; </span>
+<span class="text-primary">Cards</span>
+<small class="d-block text-muted">
+12/31/2022 20:51
+</small>
+</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="Topup-Balance.html" class="text-reset">
+<span class="text-muted">$50.00</span>
+<span class="text-primary"> + $3.50</span>
+<span class="text-muted"> &bull; </span>
+<span class="text-danger">Unpaid</span>
+<span class="text-muted"> &bull; </span>
+<span class="text-primary">Cryptocurrency</span>
+<small class="d-block text-muted">
+12/27/2022 20:54
+</small>
+</a>
+                                    </li>
+                                </ul>
+                                <div class="card-footer text-center">
+                                    <a href="Topup-Balance.html" class="text-muted">View all deposits</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                  </div>
-                  </div>
                 </div>
-
-                <div class="profile_section_two_box">
-                  <div class="profile_section_two_heading border_bottom"><h2>To Address</h2></div>
-                 <div class="profile_section_two_main">
-                 <div class="profile_section_two">
-                   <div class="profile_name">
-                     <span>Saved Address</span>
-                     <input type="text" name="FromAddress"  placeholder="Enter pickup address">
-                   </div>
-                 </div>
-                 <div class="profile_section_two">
-                   <div class="profile_name">
-                     <span>Country *</span>
-                     <div class="profile_phone">
-                     <select required>
-                       <option>Select Country</option>
-                     </select>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="profile_section_two">
-                   <div class="profile_name">
-                     <span>Name *</span>
-                     <div class="profile_phone">
-                     <input type="text" name="FromName" placeholder="Enter Name" required> 
-                     </div>
-                   </div>
-                 </div>
-                 <div class="profile_section_two">
-                   <div class="profile_name">
-                     <span>Company / Reference Number (optional)</span>
-                     <input type="text" name="FromCompany" placeholder="Company">
-                   </div>
-                 </div>
-                 <div class="profile_section_two">
-                   <div class="profile_name border_bottom">
-                     <span>Phone</span>
-                     <input type="number" name="FromNumber" placeholder="Phone">
-                   </div>
-                 </div>
-                 <div class="profile_section_two">
-                   <div class="profile_name">
-                     <span>Street *</span>
-                     <input type="text" name="FromStreet" placeholder="Street" required>
-                   </div>
-                 </div>
-                 <div class="profile_section_two">
-                   <div class="profile_name">
-                     <span>Street 2 (optional)</span>
-                     <input type="text" name="FromStreetTwo" placeholder="Street 2">
-                   </div>
-                 </div>
-                 <div class="profile_section_two">
-                   <div class="profile_name border_bottom">
-                     <span>City</span>
-                     <input type="text" name="FromCity" placeholder="City">
-                   </div>
-                 </div>
-                 <div class="profile_section_two">
-                   <div class="profile_name border_bottom">
-                     <span>Zip</span>
-                     <input type="text" name="FromZip" placeholder="Zip" required>
-                   </div>
-                 </div>
-                 <div class="profile_section_two">
-                   <div class="profile_name border_bottom">
-                     <span>State</span>
-                     <div class="profile_phone">
-                       <select>
-                         <option>Select State</option>
-                       </select>
-                       </div>
-                   </div>
-                 </div>
-                 </div>
-               </div>
-
+            </div>
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">Label Supply © 2021</div>
+                        <div class="col-md-6">
+                            <div class="text-md-right footer-links d-none d-md-block">
+                                <a href="Tos.html">TOS</a>
+                                <a href="Faq.html">FAQ</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                 
-                </div>
-                <div class="profile_save_btn">
-                  <button>Order Label</button>
-                  <div class="cupon_code_field"><input type="text" name="CuponCode" placeholder="Coupon COde"></div>
-                  <div class="total_price"> Price : <span> $0.00</span></div>
-                </div>
-            </form>
+            </footer>
         </div>
     </div>
-</section>
-
-
-<section class="footer-section">
-  <div class="custom_container">
-   <div class="footer_copy_right">
-    <p>Label Supply © 2021</p>
-    <div><a>TOS</a> <a>FAQ</a></div>
-   </div>
-  </div>
-  </section>
-
-<section class="user_account_section" id="user_account_section">
-  <div class="custom_container">
-      <div class="user_account">
-          <div class="keep_empty"></div>
-          <div class="user_account_detail">
-               <h4>Users</h4>
-               <div class="user_account_detail_nav">
-                   <div class="search_bar">
-                       <form>
-                           <input type="search" placeholder="search">
-                           <i class="fas fa-search"></i>
-                       </form>
-                   </div>
-                   <div class="add_user_btn">
-                       <a href="new_user.html">Add new user</a>
-                   </div>
-               </div>
-              <div class="user_account_list">
-                  <div class="single_user_account">
-                      <div class="single_detail">
-                          
-                          <figure><img src="image/img_avatar.png"></figure>
-                          <div class="specific_dtl">
-                          <h5>peter burn</h5>
-                          <span>aaron@wwt.com</span>
-                          <small>Logistings manager</small>
-                          </div>
-                         
-                      </div>
-
-                      <div class="operation">
-                          <i class="fas fa-ellipsis-h"></i>
-                          <div class="do_operation">
-                              <a href="#">Edit user</a>
-                              <a href="#">Edit Delete</a>
-                             </div> 
-                      </div>
-                  </div>
-
-
-                  
-              </div>
-
-          </div>
-      </div>
-  </div>
-</section>
-
-<section class="account_managment_section" id="account_managment_section">
-  <div class="custom_container">
-         <div class="account_managment_nav">
-             <form>
-                 <div class="search_bar">
-                 <input type="search" placeholder="Search">
-                 <i class="fas fa-search"></i>
-                 </div>
-             </form>
-             <a href="new_company.html">Add new company</a>
-          </div>
-          <div class="account_managment"> 
-              <table>
-                
-                  <tr class="border_bottom">
-                      <th>ID</th>
-                      <th>Company name</th>
-                      <th>Phone</th>
-                      <th>Webite</th>
-                      <th>Address</th>
-                      <th>Number of devices</th>
-                      <th>Primary contact</th>
-                      <th>Contact Phone</th>
-                      <th>Actions</th>
-                  </tr>
-                 
-                  <tr>
-                      <td>4544</td>
-                      <td><figure><img src="image/img_avatar.png"><span>World Wide Technology</span></figure></td>
-                      <td>+1 988 932 324</td>
-                      <td>https://wwt.com</td>
-                      <td>1911 Adie Road, St. Louis, Missouri</td>
-                      <td>3</td>
-                      <td>Lewis Fleming</td>
-                      <td>+1 252 5343 2323</td>
-                      <td>
-                             <div class="action">
-                              <i class="fas fa-ellipsis-h action_btn"></i>
-                                <div class="do_action">
-                                  <a href="#">Edit company</a>
-                                  <a href="#">Edit Account</a>
-                                  <a href="#">Delete</a>
-                                 </div> 
-                              </div>
-                         
-                             
-                      </td>
-                  </tr>
-
-                  <tr>
-                    <td>4544</td>
-                    <td><figure><img src="image/img_avatar.png"><span>World Wide Technology</span></figure></td>
-                    <td>+1 988 932 324</td>
-                    <td>https://wwt.com</td>
-                    <td>1911 Adie Road, St. Louis, Missouri</td>
-                    <td>3</td>
-                    <td>Lewis Fleming</td>
-                    <td>+1 252 5343 2323</td>
-                    <td>
-                           <div class="action">
-                            <i class="fas fa-ellipsis-h action_btn"></i>
-                              <div class="do_action">
-                                <a href="#">Edit company</a>
-                                <a href="#">Edit Account</a>
-                                <a href="#">Delete</a>
-                               </div> 
-                            </div>
-                       
-                           
-                    </td>
-                </tr>
-                  
-              </table>   
-           </div>
-  </div>
-</section>
-
-<script type="text/javascript">
-  $('.open_close_nav').click(function(){
-  
-  $('.responsive_nav_bar').toggleClass('responsive_bar');
-  });
-  
-  </script>
-<script>
-  
-$(document).ready(function(){
-$('.profile_btn').click(function(){
-   
-  $('.profile_data').toggleClass('test');
-  });
-});
-</script>
-
+    <script type="text/javascript">
+        $('.open_close_nav').click(function(){
+        
+        $('.responsive_nav_bar').toggleClass('responsive_bar');
+        });
+        
+        </script>
+      <script>
+        
+      $(document).ready(function(){
+      $('.profile_btn').click(function(){
+         
+        $('.profile_data').toggleClass('test');
+        });
+      });
+      </script>
 </body>
+
 </html>
